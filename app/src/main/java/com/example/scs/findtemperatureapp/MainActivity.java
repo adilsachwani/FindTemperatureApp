@@ -93,8 +93,8 @@ public class MainActivity extends AppCompatActivity {
                 int minTemp = temperatureObject.getInt("temp_max") - 273;
                 int maxTemp = temperatureObject.getInt("temp_min") - 273;
 
-                currentTempString = temp + "'";
-                maxMinTempString = "High " + maxTemp + "' / Low " + minTemp + "'";
+                currentTempString = temp + "˚";
+                maxMinTempString = "High " + maxTemp + "˚ / Low " + minTemp + "˚";
 
                 if(currentTempString != ""){
                     tempText = (TextView) findViewById(R.id.temp);
